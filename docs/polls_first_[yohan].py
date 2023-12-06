@@ -22,7 +22,7 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
             pass
         pass
     else : 
-        for num_second_count in range(len(list_answer)): # list_answer의 아이템 갯수만큼 반복
+        for num_second_count in range(len(list_answer)): # list_answer의 아이템 갯수만큼 반복, 마지막줄 절취선 삭제 루프
             if num_second_count != 2:
                 print("{}. {}".format(num_second_count+1,list_answer[num_second_count]),end=" ") # 아이템 갯수 index+1을 번호로 지정 2번째 라인까지
                 pass
