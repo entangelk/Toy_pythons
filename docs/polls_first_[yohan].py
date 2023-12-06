@@ -9,7 +9,7 @@ list_answer =  ["좋음", "중간", "좋아지길"]
 
 
 for num_count in range(len(list_question)): # list_question의 아이템 갯수만큼 반복
-    print("{}".format(list_question[num_count]),)
+    print("{}. {}".format(num_count+1,list_question[num_count]),)
     if num_count != 3:
         for num_second_count in range(len(list_answer)): # list_answer의 아이템 갯수만큼 반복
             if num_second_count != 2:
