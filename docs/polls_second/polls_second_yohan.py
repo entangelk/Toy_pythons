@@ -50,8 +50,8 @@ print("{}".format(str_total_answer))
 print("{} {}".format(str_last_answer_count,set_list_final))
 
 num_sum_addavr = 0
-for num_cal_count in range(len(list_addavr)):   # 통계 계산 분모 합계
-        num_sum_addavr += int(list_addavr[num_cal_count])
+for num_cal_count in range(len(set_list_final)):   # 통계 계산 분모 합계
+        num_sum_addavr += int(set_list_final[num_cal_count])
 
 num_sum_total = 0
 for num_cal_count in range(len(list_addavr)):   # 통계 계산 분자 합계
