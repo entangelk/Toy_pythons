@@ -11,9 +11,11 @@ list_question = [
 
 list_answer =  ["좋음", "중간", "좋아지길"]
 
+list_answer_result = [0, 0, 0]
+
 
 for num_count in range(len(list_question)): # list_question의 아이템 갯수만큼 반복
-    print("{}. {}".format(num_count+1,list_question[num_count]),)
+    print("{}. {}".format(num_count+1,list_question[num_count]))
     if num_count != 3:
         for num_second_count in range(len(list_answer)): # list_answer의 아이템 갯수만큼 반복
             if num_second_count != 2:
@@ -21,6 +23,10 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
                 pass
             else :
                 print("{}. {}".format(num_second_count+1,list_answer[num_second_count])) # 아이템 갯수 3번라인 줄바꿈
+                str_print_answer= input("당신 생각은 몇 번 : ")
+                num_print_answer= int(str_print_answer)
+                index=num_print_answer-1
+                list_answer_result[index]=list_answer_result[index]+1
                 print("--------------------------------------")
                 pass
             pass
@@ -32,7 +38,16 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
                 pass
             else :
                 print("{}. {}".format(num_second_count+1,list_answer[num_second_count])) # 아이템 갯수 3번라인 줄바꿈
+                str_print_answer= input("당신 생각은 몇 번 : ")
+                num_print_answer= int(str_print_answer)
+                index=num_print_answer-1
+                list_answer_result[index]=list_answer_result[index]+1
+                print("--------------------------------------")
+                pass
                 pass
             pass
         pass
     pass
+list_answer_average= (3*list_answer_result[0]+2*list_answer_result[1]+1*list_answer_result[2])/(3+2+1)
+print("답항별 개수: 1({}) 2({}) 3({})".format(list_answer_result[0],list_answer_result[1],list_answer_result[2] ))
+print("답항의 가중치 평균 : {}".format(list_answer_average))
