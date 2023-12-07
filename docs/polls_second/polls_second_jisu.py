@@ -31,9 +31,12 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
         print("")
     pass  
     pass
- 
+
+print("—--- 통 계 ----")
 #list_answer_result 표시하기
-print("설문자 답항별 갯수 표시 : 1({}) 2({}) 3({})".format(list_answer_result[0],list_answer_result[1],list_answer_result[2] ))
+print("설문자 답항별 갯수 표시 : {}".format(list_answer_result))
+print("")
+print("답변별 가중치 (좋음:3, 중간:2, 좋아지길:1)")
 #list_answer_result의 가중 평균 구하기
 list_answer_average= (3*list_answer_result[0]+2*list_answer_result[1]+1*list_answer_result[2])/(list_answer_result[0]+list_answer_result[1]+list_answer_result[2])
 print("답항 가중 평균 : {}".format(list_answer_average))
