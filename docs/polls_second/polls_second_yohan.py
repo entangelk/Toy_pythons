@@ -43,21 +43,21 @@ str_total_answer = '----- 통   계 ------'
 str_last_answer_count = '설문자 답항별 갯수 표시 : '
 str_last_answer_addavr = '답항 가중 평균 : '
 
-list_addavr=[3,2,1]
+list_addavr=[3,2,1]     # 가중치
 
 print("")
 print("{}".format(str_total_answer))
 print("{} {}".format(str_last_answer_count,set_list_final))
 
 num_sum_addavr = 0
-for num_cal_count in range(len(list_addavr)):
+for num_cal_count in range(len(list_addavr)):   # 통계 계산 분모 합계
         num_sum_addavr += int(list_addavr[num_cal_count])
 
 num_sum_total = 0
-for num_cal_count in range(len(list_addavr)):
+for num_cal_count in range(len(list_addavr)):   # 통계 계산 분자 합계
         num_sum_total += (set_list_final[num_cal_count]*list_addavr[num_cal_count])
 
-num_addavr = num_sum_total/num_sum_addavr
+num_addavr = num_sum_total/num_sum_addavr   # 통계 계산 식
 
 print("{} {}".format(str_last_answer_addavr,num_addavr))
 
