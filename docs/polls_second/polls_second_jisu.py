@@ -23,10 +23,10 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
                 pass
             else :
                 print("{}. {}".format(num_second_count+1,list_answer[num_second_count])) # 아이템 갯수 3번라인 줄바꿈
-                str_print_answer= input("당신 생각은 몇 번 : ")
-                num_print_answer= int(str_print_answer)
-                index=num_print_answer-1
-                list_answer_result[index]=list_answer_result[index]+1
+                str_print_answer= input("당신 생각은 몇 번 : ") #input으로 답항 받기
+                num_print_answer= int(str_print_answer) # 정수로 변경
+                index=num_print_answer-1 # index form으로 만들기
+                list_answer_result[index]=list_answer_result[index]+1 #list_answer_result(list)에 답항 count
                 print("--------------------------------------")
                 pass
             pass
@@ -48,6 +48,8 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
             pass
         pass
     pass
+#list_answer_result 표시하기
+print("설문자 답항별 갯수 표시 : 1({}) 2({}) 3({})".format(list_answer_result[0],list_answer_result[1],list_answer_result[2] ))
+#list_answer_result의 가중 평균 구하기
 list_answer_average= (3*list_answer_result[0]+2*list_answer_result[1]+1*list_answer_result[2])/(3+2+1)
-print("답항별 개수: 1({}) 2({}) 3({})".format(list_answer_result[0],list_answer_result[1],list_answer_result[2] ))
-print("답항의 가중치 평균 : {}".format(list_answer_average))
+print("답항 가중 평균 : {}".format(list_answer_average))
