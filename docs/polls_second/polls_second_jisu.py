@@ -23,8 +23,8 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
                 pass
             else :
                 print("{}. {}".format(num_second_count+1,list_answer[num_second_count])) # 아이템 갯수 3번라인 줄바꿈
-                str_print_answer= input("당신 생각은 몇 번 : ") #input으로 답항 받기
-                num_print_answer= int(str_print_answer) # 정수로 변경
+                 #input으로 답항 받기
+                num_print_answer= int(input("당신 생각은 몇 번 : ")) # num으로 input 받기
                 index=num_print_answer-1 # index form으로 만들기
                 list_answer_result[index]=list_answer_result[index]+1 #list_answer_result(list)에 답항 count
                 print("--------------------------------------")
@@ -38,9 +38,7 @@ for num_count in range(len(list_question)): # list_question의 아이템 갯수�
                 pass
             else :
                 print("{}. {}".format(num_second_count+1,list_answer[num_second_count])) # 아이템 갯수 3번라인 줄바꿈
-                str_print_answer= input("당신 생각은 몇 번 : ")
-                num_print_answer= int(str_print_answer)
-                index=num_print_answer-1
+                num_print_answer= int(input("당신 생각은 몇 번 : "))
                 list_answer_result[index]=list_answer_result[index]+1
                 print("--------------------------------------")
                 pass
