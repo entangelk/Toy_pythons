@@ -25,7 +25,7 @@ def test() :
         print("")      
     return num_print_answer
 
-function()
+test()
 
 
 
