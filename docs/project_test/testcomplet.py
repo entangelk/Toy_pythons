@@ -21,8 +21,6 @@ def test() :
         print("")      
     return num_print_answer
 
-test()
-
 
 def solve_result(answer_list):
     correct=[2,1,1,2]
