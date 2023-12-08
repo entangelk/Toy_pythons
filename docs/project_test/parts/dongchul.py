@@ -46,7 +46,7 @@ def answer_print() :
         print("{}".format(examples_list[count]))
         answer_list[count]=input("-정답 : ")
         answer_list[count]=int(answer_list[count])
-    print(answer_list)
+    return answer_list
 
 answer_print()
 
