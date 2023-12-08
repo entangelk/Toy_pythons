@@ -51,7 +51,6 @@ def answer_print() :
 answer_print()
 
 
-
 # for answer_01 in questions_list:
 #     print(examples_list)
     
