@@ -9,8 +9,6 @@ Averages|[Yohan](./polls_second/polls_second_yohan.py) / [Jisu](./polls_second/p
 
 ### [파일 이름]
 
-#### 문제 합치기 전 파일 : testparts_[name].py
-#### 머지 파일 이름 : testcomplet.py
 
 |CONTENTS|FILE NAME FORM|FILE LINK|MAP|
 |--|--|--|--|
