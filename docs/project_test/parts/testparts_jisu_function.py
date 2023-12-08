@@ -30,36 +30,24 @@ def function() :
         pass
     pass
     return num_print_answer
-def solve_result(answer_list):
-    collect=[2,1,1,2]
-    score=[]
-    score_problem=[10,15,10,5]
-    sum_score=0
-
-    for i in range(len(collect)):
-        if answer_list[i] == collect[i]:
-            score.append(score_problem[i])
-            pass
-        pass
-    for i in range(len(score)):
-        sum_score += score[i]
-        pass
-    if sum_score >= 30:
-        sum_level = "A"
-        pass
-    elif sum_score >= 20:
-        sum_level = 'B'
-        pass
-    else :
-        sum_level = 'C'
-        pass
-    print("응답한 내용 : ", end=" ")
-    for i in range(len(collect)):
-        print("{}번 {}".format(i+1,answer_list[i]), end=" ")
-        pass
-    print("\n당신 응답 합계 : {}점".format(sum_score))
-    print("학점은 {} 입니다.".format(sum_level))
-    pass
 
 
-solve_result(function())
+
+# for num_count in range(len(list_question)) :
+#     print("{}. {}".format(num_count+1, list_question[num_count]),end=" ") # 아이템 갯수 index+1을 번호로 지정 2번째 라인까지
+#     print("")
+#     print("{}".format(list_answer[num_count]),end=" ") # 아이템 갯수 index+1을 번호로 지정 2번째 라인까지
+#     pass
+#     print("")
+#     print("")
+#     num_print_answer= int(input("정답 : ")) # num으로 input 받기
+#     index=num_print_answer-1 # index form으로 만들기
+    # list_answer_result[index]=list_answer_result[index]+1 #list_answer_result(list)에 답항 count
+
+
+
+
+# 문제 당 정답
+list_corrects = [2, 1, 1, 2]
+# 문제 당 점수 : 작성 필요
+list_cor_point = [10, 15, 10, 5]

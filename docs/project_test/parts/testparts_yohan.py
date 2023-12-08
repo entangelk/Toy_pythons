@@ -1,6 +1,5 @@
 
 
-answer_list = [2,1,1,2]
 
 def solve_result(answer_list):
     collect=[2,1,1,2]
@@ -33,4 +32,4 @@ def solve_result(answer_list):
     print("학점은 {} 입니다.".format(sum_level))
     pass
 
-solve_result(answer_list)
+solve_result()
