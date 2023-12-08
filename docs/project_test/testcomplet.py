@@ -1,4 +1,5 @@
 def test() :
+    
     list_question = [
             'Python에서 변수를 선언하는 방법은? (점수: 10점)'
             ,'Python에서 리스트(List)의 특징은 무엇인가요? (점수: 15점)'
@@ -14,13 +15,12 @@ def test() :
 
     num_print_answer=[]
     for num_count in range(len(list_question)) :
-        print("{}. {}".format(num_count+1, list_question[num_count]),end=" ") 
-        print("")
-        print("{}".format(list_answer[num_count]),end=" ")
-        print("")
+        print("{}. {}".format(num_count+1, list_question[num_count])) 
+        print("{}".format(list_answer[num_count]))
         num_print_answer.append(int(input("-정답 : ")))
         print("")      
     return num_print_answer
+
 
 def solve_result(answer_list):
     correct=[2,1,1,2]
