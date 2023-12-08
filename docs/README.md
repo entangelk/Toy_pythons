@@ -9,10 +9,10 @@ Averages|[Yohan](./polls_second/polls_second_yohan.py) / [Jisu](./polls_second/p
 
 #### [PROJECT TEST's FILE INFO]
 
-|CONTENTS|FILE NAME FORM|FILE LINK|MAP|
+|FILE NAME FORM|FILE LINK|MAP|CONTENTS|
 |--|--|--|--|
-문제 합치기 전 파일|testparts_[name].py |[testparts_[name].py](./project_test/parts/testparts_[name].py)|./project_test/parts/testparts_[name].py
-머지 파일 이름 |testcomplet.py|[testcomplet.py](./project_test/testcomplet.py) |./project_test/testcomplet.py|
+|testparts_[name].py |[testparts_[name].py](./project_test/parts/testparts_[name].py)|./project_test/parts/testparts_[name].py |문제 합치기 전 파일
+|testcomplet.py|[testcomplet.py](./project_test/testcomplet.py) |./project_test/testcomplet.py|머지 파일 이름 |
 
 
 #### [PROJECT TEST's PUBLIC VARIABLES INFO]
