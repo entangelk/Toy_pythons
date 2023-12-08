@@ -11,12 +11,6 @@ Functions|[project_test](./project_test/)|function 활용해서 test 구현/정�
 
 |FILE NAME FORM|FILE LINK|MAP|CONTENTS|
 |--|--|--|--|
-|testparts_[name].py |[testparts_jisu.py](./project_test/parts/testparts_jisu.py) A /[testparts_yohan.py](./project_test/parts/testparts_yohan.py) B|./project_test/parts/testparts_[name].py |문제 합치기 전 파일
+|testparts_[name].py |A : [testparts_jisu.py](./project_test/parts/testparts_jisu.py) /B : [testparts_yohan.py](./project_test/parts/testparts_yohan.py) |./project_test/parts/testparts_[name].py |문제 합치기 전 파일
 |testcomplet.py|[testcomplet.py](./project_test/testcomplet.py) |./project_test/testcomplet.py|머지 파일 이름 |
-
-
-#### [PROJECT TEST's PUBLIC VARIABLES INFO]
-|변수이름|정의|비고|
-|--|--|--|
-input_temp|=[1,3,4,1]|예시|
 
