@@ -22,6 +22,7 @@ def test() :
     return num_print_answer
 
 
+
 def solve_result(answer_list):
     correct=[2,1,1,2]
     score=[]
@@ -55,3 +56,4 @@ def solve_result(answer_list):
 
 
 solve_result(test())
+
