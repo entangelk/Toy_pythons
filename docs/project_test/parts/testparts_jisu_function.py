@@ -19,17 +19,13 @@ def function() :
     for num_count in range(len(list_question)) :
         print("{}. {}".format(num_count+1, list_question[num_count]),end=" ") 
         print("")
-        print("{}".format(list_answer[num_count]),end=" ") 
-        pass
+        print("{}".format(list_answer[num_count]),end=" ")
         print("")
-        print("")
-        num_print_answer.append(int(input("정답 : "))) 
-
-
-        pass  
-        pass
-    pass
+        num_print_answer.append(int(input("-정답 : ")))
+        print("")      
     return num_print_answer
+
+function()
 
 
 
