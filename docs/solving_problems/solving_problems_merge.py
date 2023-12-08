@@ -24,23 +24,22 @@ def test() :
         print("")      
     return num_print_answer # user의 답변 list - return
 
-
 ## source from YOHAN docs/project_test/parts/testparts_yohan.py
-def solve_result(answer_list):
-    correct=[2,1,1,2]
-    score=[]
-    score_problem=[10,15,10,5]
-    sum_score=0
+def solve_result(answer_list):  # 결과값 계산 function
+    correct=[2,1,1,2]   # 문제 정답 리스트
+    score=[]    # 점수 저장 리스트
+    score_problem=[10,15,10,5]  # 문제당 점수 리스트
+    sum_score=0     # 점수 합계 변수 초기화
 
-    for i in range(len(correct)):
-        if answer_list[i] == correct[i]:
-            score.append(score_problem[i])
+    for i in range(len(correct)): 
+        if answer_list[i] == correct[i]:    # 입력과 정답이 동일할 경우
+            score.append(score_problem[i])  # 점수 저장 리스트에 문제당 점수 저장
             pass
         pass
-    for i in range(len(score)):
+    for i in range(len(score)):     # 점수 저장 리스트의 아이템을 점수 합계 변수에 저장
         sum_score += score[i]
         pass
-    if sum_score >= 30:
+    if sum_score >= 30:     # 합계 점수의 단계별 등급 표현
         sum_level = "A"
         pass
     elif sum_score >= 20:
@@ -50,12 +49,13 @@ def solve_result(answer_list):
         sum_level = 'C'
         pass
     print("응답한 내용 : ", end=" ")
-    for i in range(len(correct)):
+    for i in range(len(correct)):   # 응답리스트 출력
         print("{}번 {}".format(i+1,answer_list[i]), end=" ")
         pass
-    print("\n당신 응답 합계 : {}점".format(sum_score))
-    print("학점은 {} 입니다.".format(sum_level))
+    print("\n당신 응답 합계 : {}점".format(sum_score))  # 합계 점수 출력
+    print("학점은 {} 입니다.".format(sum_level))    # 계산된 학점 출력
     pass
+    return
 
 
 solve_result(test())
