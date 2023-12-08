@@ -33,21 +33,3 @@ def function() :
 
 
 
-# for num_count in range(len(list_question)) :
-#     print("{}. {}".format(num_count+1, list_question[num_count]),end=" ") # 아이템 갯수 index+1을 번호로 지정 2번째 라인까지
-#     print("")
-#     print("{}".format(list_answer[num_count]),end=" ") # 아이템 갯수 index+1을 번호로 지정 2번째 라인까지
-#     pass
-#     print("")
-#     print("")
-#     num_print_answer= int(input("정답 : ")) # num으로 input 받기
-#     index=num_print_answer-1 # index form으로 만들기
-    # list_answer_result[index]=list_answer_result[index]+1 #list_answer_result(list)에 답항 count
-
-
-
-
-# 문제 당 정답
-list_corrects = [2, 1, 1, 2]
-# 문제 당 점수 : 작성 필요
-list_cor_point = [10, 15, 10, 5]
