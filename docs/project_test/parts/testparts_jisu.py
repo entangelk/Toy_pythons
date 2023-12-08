@@ -1,6 +1,6 @@
 
 
-def function() :
+def test() :
     
     list_question = [
             'Python에서 변수를 선언하는 방법은? (점수: 10점)'
