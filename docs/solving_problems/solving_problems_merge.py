@@ -22,7 +22,7 @@ def test() :
         print("{}".format(list_answer[num_count]))
         num_print_answer.append(int(input("-정답 : ")))
         print("")      
-    return num_print_answer # user의 답변 return list return
+    return num_print_answer # user의 답변 list - return
 
 
 ## source from YOHAN docs/project_test/parts/testparts_yohan.py
