@@ -4,7 +4,7 @@
 |--|--|--|
 Loops_for|[Yohan](./polls_first/polls_first_[yohan].py) / [Jisu](./polls_first/polls_first_jisu.py)|설문 만들기(file: polls_first.py)
 Averages|[Yohan](./polls_second/polls_second_yohan.py) / [Jisu](./polls_second/polls_second_jisu.py)|가중평균 구하기(file: polls_second.py)
-
+Functions|[project_test](./project_test/)|function 활용해서 test 구현/정답 통계
 
 
 #### [PROJECT TEST's FILE INFO]
