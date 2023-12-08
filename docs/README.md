@@ -7,7 +7,7 @@ Averages|[Yohan](./polls_second/polls_second_yohan.py) / [Jisu](./polls_second/p
 
 
 
-### [PROJECT TEST's 파일 이름]
+#### [PROJECT TEST's FILE INFO]
 
 |CONTENTS|FILE NAME FORM|FILE LINK|MAP|
 |--|--|--|--|
@@ -15,7 +15,7 @@ Averages|[Yohan](./polls_second/polls_second_yohan.py) / [Jisu](./polls_second/p
 머지 파일 이름 |testcomplet.py|[testcomplet.py](./project_test/testcomplet.py) |./project_test/testcomplet.py|
 
 
-#### [PROJECT TEST's 공통 변수 이름]
+#### [PROJECT TEST's PUBLIC VARIABLES INFO]
 |변수이름|정의|비고|
 |--|--|--|
 input_temp|=[1,3,4,1]|예시|
