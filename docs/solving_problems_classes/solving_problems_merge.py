@@ -21,7 +21,7 @@ class solv:
         self.sum_level=''
         self.score_problem=[10,15,10,5]
         pass
-    #반복
+#반복
     def loop(self) :
         for self.num_count in range(len(self.list_question)) :    # 질문-답안-input 반복
             self.print_question(self.num_count)
@@ -31,14 +31,11 @@ class solv:
         print("{}. {}".format(num_count+1, self.list_question[num_count])) 
         print("{}".format(self.list_answer[num_count]))
         print("")    
-            # self.listing_answer()
-       
+            # self.listing_answer()    
 #인푸터
     def inputer(self) :
         self.answer_list.append(int(input("-정답 : ")))
         return self.answer_list
-
-
 
     def init_list(self):
         for i in range(len(self.correct)):
