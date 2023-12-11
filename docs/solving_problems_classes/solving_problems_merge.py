@@ -1,9 +1,6 @@
 
 ## source from JISU docs/project_test/parts/testparts_jisu.py
 
-
-# 출력과 입력으로 나눔.
-
 list_question = [   # 질문 list
 'Python에서 변수를 선언하는 방법은? (점수: 10점)'
 ,'Python에서 리스트(List)의 특징은 무엇인가요? (점수: 15점)'
@@ -36,7 +33,6 @@ class solv:
             print("{}".format(self.list_answer[num_count]))
             self.answer_list.append(int(input("-정답 : ")))
             print("")    
-            # self.listing_answer()
         return self.answer_list
     
     
