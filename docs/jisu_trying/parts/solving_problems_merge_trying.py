@@ -24,12 +24,12 @@ class solv:
     #반복
     def loop(self) :
         for self.num_count in range(len(self.list_question)) :    # 질문-답안-input 반복
-            self.print_question()
+            self.print_question(self.num_count)
             self.inputer()
 # 프린터
-    def print_question(self) :
-        print("{}. {}".format(self.num_count+1, self.list_question[self.num_count])) 
-        print("{}".format(self.list_answer[self.num_count]))
+    def print_question(self,num_count) :
+        print("{}. {}".format(num_count+1, self.list_question[num_count])) 
+        print("{}".format(self.list_answer[num_count]))
         print("")    
             # self.listing_answer()
        
@@ -72,7 +72,7 @@ class solv:
         return
     
 sol = solv()
-sol.print_question()
+sol.loop()
 sol.init_list()
 sol.level_check()
 sol.print_result()
